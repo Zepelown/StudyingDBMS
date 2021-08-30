@@ -1,18 +1,25 @@
 {
   "name": "management",
   "version": "1.0.0",
-  "description": "",
+  "proxy": "https://studyingdbms-wukbt.run.goorm.io/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "client": "cd client && npm start",
     "server": "nodemon server.js",
-    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\"",
+    "start": "node server.js"
   },
-  "dependencies":{
-    "body-parser": "^1.18.3",
-    "express": "^4.16.4"
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12",
+    "yarn": "^1.22.11"
   },
-  "devDependencies":{
+  "devDependencies": {
     "concurrently": "^4.0.1"
-  }
+  },
+  "main": "server.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }

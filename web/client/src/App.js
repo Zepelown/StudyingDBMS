@@ -34,7 +34,7 @@ class App extends Component {
   }
   
   callApi = async () => {
-    const response = await fetch('');
+    const response = await fetch('/api/customers');
     const body = await response.json();
     return body;
   }
@@ -55,14 +55,14 @@ class App extends Component {
             </TableRow>
           </TableHead>
           <TableBody>
-            {this.state.customers ? this.state.customers.map(c=> {
-              return <Customer key={c.id} id={c.id} image={c.image}
-                        name={c.name} birthday={c.birthday} gender={c.gender}/>
-            }):""}
+		{this.state.customers ? this.state.customers.map(c => {
+		return <Customer key={c.id} id={c.id} image={c.image} name=			{c.name} birthday={c.birthday} gender={c.gender} job={c.job} />
+	}) : ''}
+
           </TableBody>
         </Table>
       </Paper>
-      )
+      );
   }
 }
 
