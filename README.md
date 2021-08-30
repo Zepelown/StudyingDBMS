@@ -5,3 +5,5 @@ StudyingDBMS
 
 
 [JSON검증사이트](https://jsonlint.com/)
+
+[server와 client 동시 실행?](https://hello-bryan.tistory.com/121)
