@@ -7,6 +7,11 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true}));
 
 app.get('/api/customers', (req, res) => {
+	setTimeout(() => {
+		console.log("we need time");
+		
+	}, 60)
+	//s
     res.send([
         {
         'id': 1,
