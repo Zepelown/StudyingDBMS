@@ -1,7 +1,6 @@
 {
   "name": "management",
   "version": "1.0.0",
-  "proxy": "https://studyingdbms-wukbt.run.goorm.io/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "client": "cd client && npm start",
