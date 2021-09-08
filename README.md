@@ -1,5 +1,5 @@
 # StudyingDBMS
-StudyingDBMS
+### 구름 IDE 사용해서 코딩 공부 중
 
 [참고강좌](https://ndb796.tistory.com/222?category=1030599)
 
