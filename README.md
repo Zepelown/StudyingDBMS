@@ -10,9 +10,11 @@ StudyingDBMS
 [express와 mysql 연동](https://codingcoding.tistory.com/449)
 
 
-~~일단 server와 client 분리는 성공했고~~
+[localhost대신](https://tgd.kr/s/funzinnu/29669270?category=2358396)
 
-~~포트문제인지 client쪽에서 header 오류가 발생~~
 
-__~~고침!~~__
+[multer 셋팅](https://github.com/expressjs/multer/blob/master/doc/README-ko.md)
 
+[mysql 재설치](https://velog.io/@michael00987/MYSQL-%EC%84%A4%EC%B9%98-%EC%9E%AC%EC%84%A4%EC%B9%98)
+
+[CORS정책해결법](https://xiubindev.tistory.com/115)
