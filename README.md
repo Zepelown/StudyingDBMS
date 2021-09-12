@@ -1,7 +1,7 @@
 # StudyingDBMS
 ### 구름 IDE 사용해서 코딩 공부 중
 
-[참고강좌](https://ndb796.tistory.com/222?category=1030599)
+[참고강좌](https://ndb796.tistory.com/229?category=1030599)
 
 
 [JSON검증사이트](https://jsonlint.com/)
